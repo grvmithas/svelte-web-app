@@ -1,11 +1,23 @@
 <script>
-  import {page, navigating} from "$app/stores";
+  import Skipnav from "../components/skipnav/skipnav.svelte";
+  import Nav from "../components/nav/nav.svelte";
 </script>
 
-<nav>
-  <a href="/" aria-current={$page.url.pathname === "/"}>Home</a>
-  <a href="/about" aria-current={$page.url.pathname === "/about"}>about</a>
-  <a href="/pschat" aria-current={$page.url.pathname === "/pschat"}>PSchat</a>
-</nav>
+<Skipnav />
+<Nav />
 
-<slot />
+<main id="main">
+  <slot />
+</main>
+
+
+<style>
+main{
+  width: calc(100% - 230px);
+  height: 100vh;
+  overflow: auto;
+  background: #eaedf7;
+  padding: 0 1.5rem;
+}
+
+</style>
