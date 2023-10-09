@@ -41,24 +41,30 @@
     };
   </script>
   
-  <div class="chat">
-    <p>Content: {textareaContent}</p>
-  </div>
+  <section>
+    <h1 class="main-content-title">PS Chat</h1>
   
-  <div class="chat__bottom">
-    <form class="search-form" on:submit={handleSubmit}>
-      <textarea
-        bind:value={textareaContent}
-        placeholder="Type something..."
-        class="search-form__text form-control"
-        on:keydown={handleTextareHeight}
-      />
+    <div class="chat">
+      <p>Content: {textareaContent}</p>
+    </div>
+    
+    <div class="chat__bottom">
+      <form class="search-form" on:submit={handleSubmit}>
+        <textarea
+          bind:value={textareaContent}
+          placeholder="Type something..."
+          class="search-form__text form-control"
+          on:keydown={handleTextareHeight}
+        />
+        <button class="search-form__button btn" type="submit">
+          <i class="icon-paper-plane" />
+        </button>
+      </form>
+    </div>
   
-      <button class="search-form__button btn" type="submit">
-        <i class="demo-icon icon-paper-plane" />
-      </button>
-    </form>
-  </div>
+  </section>
+  
+  
   
   
   <style>
