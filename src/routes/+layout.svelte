@@ -29,7 +29,7 @@ main{
   height: 100vh;
   overflow: auto;
   background: #eaedf7;
-  padding: 0 1.5rem;
+  padding:1.5rem;
 }
 
 </style>
