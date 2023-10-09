@@ -18,7 +18,7 @@
 <nav class="nav">
     <div class="nav__logo">
        
-        adas das as as d asdas <br />
+      
     </div>
     <ul>
         {#each items as item}

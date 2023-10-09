@@ -13,5 +13,9 @@
 		"svelte": "^4.0.5",
 		"vite": "^4.4.2"
 	},
-	"type": "module"
+	"type": "module",
+	"dependencies": {
+		"prismjs": "^1.29.0",
+		"svelte-prism": "^1.1.6"
+	}
 }

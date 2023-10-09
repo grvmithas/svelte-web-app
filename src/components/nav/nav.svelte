@@ -3,10 +3,10 @@
     import { onMount } from "svelte";
 
     let items = [
-        { title: "Home", link: "/" },
+        { title: "PSChat", link: "/" },
         { title: "Mule Initializr", link: "/muleinitializr" },
         { title: "Test Data", link: "/testdata" },
-        { title: "PS Chat", link: "/pschat" },
+        // { title: "PS Chat", link: "/pschat" },
         { title: "Settings", link: "/settings" },
     ];
 
@@ -18,7 +18,7 @@
 <nav class="nav">
     <div class="nav__logo">
        
-        adas das as as d asdas <br />
+      
     </div>
     <ul>
         {#each items as item}

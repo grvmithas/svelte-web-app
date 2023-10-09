@@ -157,3 +157,15 @@ textarea.form-control {
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
 }
+
+
+
+.code .token.property,
+.code .token.number {
+    color: #FF70BF;
+}
+
+.code .token.operator {
+    color: #fff;
+    background: transparent;
+}
