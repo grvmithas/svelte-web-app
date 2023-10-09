@@ -17,6 +17,9 @@
 
 <nav class="nav">
     <div class="nav__logo">
+        <div>
+            Logo
+        </div>
        
       
     </div>

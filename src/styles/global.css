@@ -35,7 +35,7 @@ ol {
     cursor: pointer;
     line-height: 1.5;
     border-radius: 8px;
-    padding: 0.375rem 1rem;
+    padding: 0.4375rem 1rem;
 }
 
 .card {
@@ -158,8 +158,22 @@ textarea.form-control {
     border-bottom-left-radius: 0;
 }
 
-
-
+.code{
+    border-radius: 8px;
+    position: relative;
+    overflow: auto;
+    max-height: 400px;
+}
+.code-title{
+    background: #20224e;
+    padding: 0.5rem 1rem;
+    color: #ffffff;
+    font-size: 0.75rem;
+    line-height: 1rem;
+    border-radius: 8px 8px 0 0;
+    position: sticky;
+    top: 0;
+}
 .code .token.property,
 .code .token.number {
     color: #FF70BF;
@@ -175,4 +189,7 @@ label{
     line-height: 20px;
     margin-bottom: 4px;
     display: flex;
+}
+.form-group{
+    margin-bottom: 1.5rem;
 }

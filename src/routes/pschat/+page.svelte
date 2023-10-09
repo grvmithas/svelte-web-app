@@ -53,9 +53,8 @@
       class="search-form__text form-control"
       on:keydown={handleTextareHeight}
     />
-
     <button class="search-form__button btn" type="submit">
-      <i class="demo-icon icon-paper-plane" />
+      <i class="icon-paper-plane" />
     </button>
   </form>
 </div>
