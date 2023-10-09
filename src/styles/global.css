@@ -169,3 +169,10 @@ textarea.form-control {
     color: #fff;
     background: transparent;
 }
+
+label{
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 4px;
+    display: flex;
+}

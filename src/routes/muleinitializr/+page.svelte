@@ -49,23 +49,35 @@ https://cdn.jsdelivr.net/npm/prismjs@1.29.0/themes/prism.min.css
 
 <section>
   <h1 class="main-content-title">mule initializr</h1>
-  <div class="input-group">
-    <input
-      class="form-control input-group-form"
-      placeholder="Search Exchange"
-      type="text"
-    />
-    <button class="input-group-text">
-      <i />
-    </button>
+    <div class="card">
+      <div class="card__body">
+        <div class="input-group">
+          <input
+            class="form-control input-group-form"
+            placeholder="Search Exchange"
+            type="text"
+          />
+          <button class="input-group-text">
+            <i />
+          </button>
+        </div>
+      </div>
+    </div>
+  <div class="">
+    <label for="muleprojeectname">Mulesoft Project Name</label>
+    <input type="text" class="form-control"/>
+  </div>
+  <div class="">
+    <label for="muleprojectversion">Version</label>
+    <input type="text" class="form-control" id="muleprojectversion"/>
   </div>
   <div class="code">
     {@html Prism.highlight(code, Prism.languages[language])}
   </div>
 
   <div>
-    <button>
-      
+    <button class="btn btn-primary">
+Generate 
     </button>
   </div>
 
